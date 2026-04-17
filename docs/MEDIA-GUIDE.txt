@@ -22,15 +22,12 @@ Gallery:
 - gallery-portrait-02.jpg
 
 Theatre:
-- theatre-play-01-photo-01.jpg
-- theatre-play-01-photo-02.jpg
-- theatre-play-01-photo-03.jpg
-- theatre-play-02-photo-01.jpg
-- theatre-play-02-photo-02.jpg
-- theatre-play-02-photo-03.jpg
-- theatre-play-03-photo-01.jpg
-- theatre-play-03-photo-02.jpg
-- theatre-play-03-photo-03.jpg
+Play 1
+- theatre-play-01-photo-01.jpg through theatre-play-01-photo-09.jpg
+Play 2
+- theatre-play-02-photo-01.jpg through theatre-play-02-photo-09.jpg
+Play 3
+- theatre-play-03-photo-01.jpg through theatre-play-03-photo-09.jpg
 
 Poetry:
 - poetry-book-cover.jpg
@@ -41,28 +38,8 @@ Photography:
 - photography-grid-02.jpg
 - photography-grid-03.jpg
 - photography-grid-04.jpg
-
-VIDEO / EMBED GUIDE
-
-Do NOT upload reels, film clips, or short stories as large repo files if you can avoid it.
-Use Vimeo or YouTube embeds instead.
-
-Where to place links later:
-- reels.html
-  Acting Demo Reel
-  Voiceover Reel
-  Music Reel
-  Director's Reel
-
-- film.html
-  add play links / embeds for:
-  commercials
-  short films
-  experimental
-
-- poetry.html
-  add YouTube embeds for:
-  Short Stories with Sophia
+- photography-grid-05.jpg
+- photography-grid-06.jpg
 
 PERFORMANCE NOTES
 
@@ -76,3 +53,6 @@ Best homepage video:
 - around 10–15 seconds
 - muted loop
 - target under 8 MB if possible
+
+Do not delete /docs before replacing it.
+Upload the new /docs over the old /docs, then commit.

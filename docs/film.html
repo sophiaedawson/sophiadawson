@@ -24,77 +24,57 @@
 </header>
 
     <main>
-      
-<section class="section">
-  <div class="container">
-    <h1 class="section-title">Film</h1>
-    <p class="section-lead">Starts on all. Use the left side as a category rail and embed playable videos for commercials, short films, and experimental work. Features can stay image-based.</p>
-
-    <div class="film-layout">
-      <aside class="category-menu">
-        <a href="#all">All</a>
-        <a href="#commercials">Commercials</a>
-        <a href="#short-films">Short Films</a>
-        <a href="#features">Features</a>
-        <a href="#experimental">Experimental</a>
-      </aside>
-
-      <div class="category-section">
-        <section id="all" class="credit-card">
-          <div class="meta">All</div>
-          <h3>All Projects</h3>
-          <div class="credit-list">
-            <div class="credit-line"><strong>Project Title</strong><span>Commercial / Role Name</span><span><a href="#">Play Link</a></span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Short Film / Role Name</span><span><a href="#">Play Link</a></span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Feature / Role Name</span><span>Photo Only</span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Experimental / Creator</span><span><a href="#">Play Link</a></span></div>
-          </div>
-        </section>
-
-        <section id="commercials" class="credit-card">
-          <div class="meta">Commercials</div>
-          <h3>Commercials</h3>
-          <div class="credit-list">
-            <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
-          </div>
-        </section>
-
-        <section id="short-films" class="credit-card">
-          <div class="meta">Short Films</div>
-          <h3>Short Films</h3>
-          <div class="credit-list">
-            <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
-          </div>
-        </section>
-
-        <section id="features" class="credit-card">
-          <div class="meta">Features</div>
-          <h3>Features</h3>
-          <div class="credit-list">
-            <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span>Photo Only</span></div>
-          </div>
-        </section>
-
-        <section id="experimental" class="credit-card">
-          <div class="meta">Experimental</div>
-          <h3>Experimental</h3>
-          <div class="credit-list">
-            <div class="credit-line"><strong>Project Title</strong><span>Creator / Performer</span><span><a href="#">Play Link</a></span></div>
-            <div class="credit-line"><strong>Project Title</strong><span>Creator / Performer</span><span><a href="#">Play Link</a></span></div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <div class="media-note" style="margin-top:22px;">
-      For film, keep videos external. Use Vimeo or YouTube links/embeds instead of uploading long films to the repo. That keeps the site fast.
-    </div>
+<section class="section"><div class="container">
+<h1 class="section-title">Film</h1>
+<p class="section-lead">The left side filters the right side. “All” shows every project together. Choosing a category hides the rest and only shows that category.</p>
+<div class="film-layout">
+  <aside class="category-menu" data-filter-group data-target=".film-results > .credit-card">
+    <a href="#all" class="active" data-filter="all">All</a>
+    <a href="#commercials" data-filter="commercials">Commercials</a>
+    <a href="#short-films" data-filter="short-films">Short Films</a>
+    <a href="#features" data-filter="features">Features</a>
+    <a href="#experimental" data-filter="experimental">Experimental</a>
+  </aside>
+  <div class="film-results">
+    
+<article class="credit-card" data-category="commercials">
+  <div class="meta">Commercials</div>
+  <h3>Project Title</h3>
+  <div class="credit-list">
+    <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
+    <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
   </div>
-</section>
+</article>
+<article class="credit-card" data-category="short-films">
+  <div class="meta">Short Films</div>
+  <h3>Project Title</h3>
+  <div class="credit-list">
+    <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
+    <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span><a href="#">Play Link</a></span></div>
+  </div>
+</article>
+<article class="credit-card" data-category="features">
+  <div class="meta">Features</div>
+  <h3>Project Title</h3>
+  <p>Feature entry with photo-only support if there is no public video link available.</p>
+  <div class="credit-list">
+    <div class="credit-line"><strong>Project Title</strong><span>Role Name</span><span>Photo Only</span></div>
+  </div>
+</article>
+<article class="credit-card" data-category="experimental">
+  <div class="meta">Experimental</div>
+  <h3>Project Title</h3>
+  <div class="credit-list">
+    <div class="credit-line"><strong>Project Title</strong><span>Creator / Performer</span><span><a href="#">Play Link</a></span></div>
+    <div class="credit-line"><strong>Project Title</strong><span>Creator / Performer</span><span><a href="#">Play Link</a></span></div>
+  </div>
+</article>
 
-    </main>
+  </div>
+</div>
+<div class="media-note" style="margin-top:22px;">For film, keep videos external. Use Vimeo or YouTube links or embeds instead of uploading long films to the repo.</div>
+</div></section>
+</main>
     
 <footer class="site-footer">
   <div class="container footer-inner">

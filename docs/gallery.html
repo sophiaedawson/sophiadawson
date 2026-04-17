@@ -24,48 +24,25 @@
 </header>
 
     <main>
-      
-<section class="section">
-  <div class="container">
-    <h1 class="section-title">Gallery</h1>
-    <p class="section-lead">One page, three categories: headshots, modeling, and portraits.</p>
-
-    <div class="gallery-tabs">
-      <span class="gallery-tab">Headshots</span>
-      <span class="gallery-tab">Modeling</span>
-      <span class="gallery-tab">Portraits</span>
-    </div>
-
-    <div class="gallery-grid">
-      <article class="gallery-item">
-        <img src="assets/images/gallery-headshot-01.jpg" alt="Headshot 1">
-        <div class="caption">Headshot</div>
-      </article>
-      <article class="gallery-item">
-        <img src="assets/images/gallery-headshot-02.jpg" alt="Headshot 2">
-        <div class="caption">Headshot</div>
-      </article>
-      <article class="gallery-item">
-        <img src="assets/images/gallery-modeling-01.jpg" alt="Modeling 1">
-        <div class="caption">Modeling</div>
-      </article>
-      <article class="gallery-item">
-        <img src="assets/images/gallery-modeling-02.jpg" alt="Modeling 2">
-        <div class="caption">Modeling</div>
-      </article>
-      <article class="gallery-item">
-        <img src="assets/images/gallery-portrait-01.jpg" alt="Portrait 1">
-        <div class="caption">Portrait</div>
-      </article>
-      <article class="gallery-item">
-        <img src="assets/images/gallery-portrait-02.jpg" alt="Portrait 2">
-        <div class="caption">Portrait</div>
-      </article>
-    </div>
-  </div>
-</section>
-
-    </main>
+<section class="section"><div class="container">
+<h1 class="section-title">Gallery</h1>
+<p class="section-lead">Filter between all photos, headshots, modeling, and portraits.</p>
+<div class="gallery-controls" data-filter-group data-target=".gallery-item">
+  <button class="filter-chip active" data-filter="all">All</button>
+  <button class="filter-chip" data-filter="headshots">Headshots</button>
+  <button class="filter-chip" data-filter="modeling">Modeling</button>
+  <button class="filter-chip" data-filter="portraits">Portraits</button>
+</div>
+<div class="gallery-grid">
+  <article class="gallery-item" data-category="headshots"><img src="assets/images/gallery-headshot-01.jpg" alt="Headshot 1"><div class="caption">Headshot</div></article>
+  <article class="gallery-item" data-category="headshots"><img src="assets/images/gallery-headshot-02.jpg" alt="Headshot 2"><div class="caption">Headshot</div></article>
+  <article class="gallery-item" data-category="modeling"><img src="assets/images/gallery-modeling-01.jpg" alt="Modeling 1"><div class="caption">Modeling</div></article>
+  <article class="gallery-item" data-category="modeling"><img src="assets/images/gallery-modeling-02.jpg" alt="Modeling 2"><div class="caption">Modeling</div></article>
+  <article class="gallery-item" data-category="portraits"><img src="assets/images/gallery-portrait-01.jpg" alt="Portrait 1"><div class="caption">Portrait</div></article>
+  <article class="gallery-item" data-category="portraits"><img src="assets/images/gallery-portrait-02.jpg" alt="Portrait 2"><div class="caption">Portrait</div></article>
+</div>
+</div></section>
+</main>
     
 <footer class="site-footer">
   <div class="container footer-inner">
